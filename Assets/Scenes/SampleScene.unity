@@ -333,8 +333,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 572660810}
   m_HandleRect: {fileID: 572660809}
   m_Direction: 2
-  m_Value: 1.0000021
-  m_Size: 0.326
+  m_Value: 1.0000023
+  m_Size: 0.32599998
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -389,6 +389,7 @@ GameObject:
   - component: {fileID: 196016770}
   - component: {fileID: 196016769}
   - component: {fileID: 196016768}
+  - component: {fileID: 196016771}
   m_Layer: 5
   m_Name: Scroll View
   m_TagString: Untagged
@@ -487,6 +488,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196016766}
   m_CullTransparentMesh: 1
+--- !u!114 &196016771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196016766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f033b65e6ae0a44c97a438a249d2751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: {fileID: 1107132095}
 --- !u!1 &197075110
 GameObject:
   m_ObjectHideFlags: 0
@@ -967,6 +981,7 @@ MonoBehaviour:
   m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &424036769
 GameObject:
   m_ObjectHideFlags: 0
@@ -2969,9 +2984,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4083,7 +4098,6 @@ MonoBehaviour:
   foundText: {fileID: 587784031}
   status: {fileID: 1671915924}
   screenFront: {fileID: 1052756475}
-  screenBack: {fileID: 0}
 --- !u!114 &1557070818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5594,8 +5608,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1046597025}
   m_HandleRect: {fileID: 1046597024}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 1
+  m_Value: 1
+  m_Size: 0.9999999
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

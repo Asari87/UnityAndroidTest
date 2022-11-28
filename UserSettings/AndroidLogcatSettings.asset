@@ -1,9 +1,9 @@
 {
-    "m_SelectedDeviceId": "8b034d13",
+    "m_SelectedDeviceId": "3750c1305252100157",
     "m_SelectedPackage": {
-        "deviceId": "8b034d13",
+        "deviceId": "3750c1305252100157",
         "name": "com.AsgardSystems.LantronixEVB",
-        "processId": 19929,
+        "processId": 6302,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -18,6 +18,60 @@
             "deviceId": "8b034d13",
             "name": "com.AsgardSystems.LantronixEVB",
             "processId": 19929,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.android.launcher3",
+            "processId": 2184,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.android.settings",
+            "processId": 4901,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 5269,
+            "exited": true
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 5596,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 5738,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 5875,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 6022,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 6155,
+            "exited": false
+        },
+        {
+            "deviceId": "3750c1305252100157",
+            "name": "com.AsgardSystems.LantronixEVB",
+            "processId": 6302,
             "exited": false
         }
     ],

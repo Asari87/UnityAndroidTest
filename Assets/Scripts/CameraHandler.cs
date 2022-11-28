@@ -1,7 +1,6 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.Remoting.Contexts;
 
 using TMPro;
 
@@ -14,7 +13,6 @@ public class CameraHandler : MonoBehaviour
     [SerializeField] private TMP_Text foundText;
     [SerializeField] private TMP_Text status;
     [SerializeField] private RawImage screenFront;
-    [SerializeField] private RawImage screenBack;
     private WebCamTexture webcamTexture;
     private bool camReady = false;
     WebCamDevice[] devices;
@@ -22,6 +20,7 @@ public class CameraHandler : MonoBehaviour
     private bool camActivation = false;
     void Start()
     {
+
         InitializeCamera();
 
     }
@@ -42,7 +41,8 @@ public class CameraHandler : MonoBehaviour
 
     private void AssignCamera(string name)
     {
-        webcamTexture = new WebCamTexture(name, 640, 480, 30);
+        webcamTexture = new WebCamTexture();
+        webcamTexture.deviceName = name;
         screenFront.texture = webcamTexture;
 
 
